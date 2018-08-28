@@ -1,0 +1,36 @@
+{
+  "name": "booking.calm",
+  "private": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "lint-staged": "^7.2.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.14.2",
+    "prettier-eslint": "^8.8.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --write",
+      "git add",
+      "xo"
+    ]
+  },
+  "precommit": {
+    "run": [
+      "lint-staged"
+    ]
+  },
+  "scripts": {
+    "lint-staged": "lint-staged"
+  }
+}

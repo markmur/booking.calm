@@ -1,0 +1,14 @@
+{
+  "name": "booking.calm",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Remove the anxiety from booking a hotel",
+  "content_scripts": [
+    {
+      "matches": ["https://*.booking.com/*"],
+      "js": ["scripts/main.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["https://*.booking.com/", "activeTab"]
+}
