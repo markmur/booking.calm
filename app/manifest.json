@@ -1,8 +1,9 @@
 {
   "name": "booking.calm",
-  "version": "0.1.0",
+  "short_name": "booking.calm",
+  "version": "0.1.2",
   "manifest_version": 2,
-  "description": "Remove the anxiety from booking a hotel",
+  "description": "Remove dark UX patterns from booking.com",
   "content_scripts": [
     {
       "matches": ["https://*.booking.com/*"],
@@ -15,5 +16,10 @@
     "16": "images/16.png",
     "48": "images/48.png",
     "128": "images/128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/16.png"
+    }
   }
 }
