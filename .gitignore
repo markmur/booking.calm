@@ -4,5 +4,5 @@ dist
 package
 app.crx
 app.pem
-.DS_STORE
+.DS_Store
 app.zip
