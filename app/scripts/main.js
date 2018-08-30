@@ -24,16 +24,14 @@ const classNames = [
 
 const classNamesSelector = classNames.map(x => `.${x}`).join(', ')
 
+// Remove each node
 const removeNodes = nodes => nodes.forEach(node => node.remove())
 
+// Get DOM nodes from class names
 const getDOMNodes = () => [...document.querySelectorAll(classNamesSelector)]
 
-removeNodes(getDOMNodes())
-
-const mutationsCallback = () => removeNodes(getDOMNodes())
-
 // Create an observer instance linked to the callback function
-const observer = new MutationObserver(mutationsCallback)
+const observer = new MutationObserver(() => removeNodes(getDOMNodes()))
 
 const retry = () => setTimeout(init, 5)
 
