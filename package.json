@@ -6,7 +6,8 @@
   },
   "scripts": {
     "lint-staged": "lint-staged",
-    "lint": "xo"
+    "lint": "xo",
+    "zip": "zip -r app.zip app"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
