@@ -19,7 +19,8 @@ const classNames = [
   'js--hp-rt-just-booked',
   'hprt-table-cheapest-block-banner-wrapper',
   'sr--justBooked',
-  'soldout_property'
+  'soldout_property',
+  'hotel_overlay_urgency'
 ]
 
 const classNamesSelector = classNames.map(x => `.${x}`).join(', ')
