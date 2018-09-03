@@ -20,7 +20,8 @@ const classNames = [
   'hprt-table-cheapest-block-banner-wrapper',
   'sr--justBooked',
   'soldout_property',
-  'hotel_overlay_urgency'
+  'hotel_overlay_urgency',
+  'fe_banner__red'
 ]
 
 const classNamesSelector = classNames.map(x => `.${x}`).join(', ')
