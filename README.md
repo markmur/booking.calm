@@ -2,6 +2,8 @@
 
 Remove the anxiety from booking a hotel on booking.com.
 
+This Chrome extension finds and removes all anxiety-inducing dark patterns on booking.com.
+
 [Get Chrome Extension Here](https://chrome.google.com/webstore/detail/bookingcalm/lihgcicimndjcfapacikhepdjichnepm)
 
 ## Examples of Dark Patterns
