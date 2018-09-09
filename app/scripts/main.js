@@ -22,7 +22,8 @@ const classNames = [
   'soldout_property',
   'hotel_overlay_urgency',
   'fe_banner__red',
-  'gallery-info__um'
+  'gallery-info__um',
+  'maps-concurrent-visitors'
 ]
 
 const classNamesSelector = classNames.map(x => `.${x}`).join(', ')
