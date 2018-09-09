@@ -28,7 +28,8 @@ const classNames = [
   'gallery-info__um',
   'maps-concurrent-visitors',
   'hp-rt-recently-booked',
-  'js--hp-rt-recently-booked'
+  'js--hp-rt-recently-booked',
+  'listview_few_left'
 ]
 
 const classNamesSelector = classNames.map(x => `.${x}`).join(', ')
