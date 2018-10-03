@@ -15,11 +15,21 @@ const classNames = [
   '-scarcity_indicator-pss_scarcity_3_left',
   '-scarcity_indicator-pss_scarcity_4_left',
   '-scarcity_indicator-pss_scarcity_5_left',
+  '-scarcity_indicator-pss_scarcity_6_left',
+  '-scarcity_indicator-pss_scarcity_7_left',
+  '-scarcity_indicator-pss_scarcity_8_left',
   'hp-rt-just-booked',
   'js--hp-rt-just-booked',
   'hprt-table-cheapest-block-banner-wrapper',
   'sr--justBooked',
-  'soldout_property'
+  'soldout_property',
+  'hotel_overlay_urgency',
+  'fe_banner__red',
+  'gallery-info__um',
+  'maps-concurrent-visitors',
+  'hp-rt-recently-booked',
+  'js--hp-rt-recently-booked',
+  'listview_few_left'
 ]
 
 const classNamesSelector = classNames.map(x => `.${x}`).join(', ')
